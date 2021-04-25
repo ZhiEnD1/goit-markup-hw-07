@@ -1,0 +1,30 @@
+.join-container {
+  margin-left: 70px;
+}
+
+.join-container__item {
+  margin: 0;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.join-container .social-icons__link {
+  margin-top: 20px;
+  fill: #ffffff;
+  background: rgba(255, 255, 255, 0.1);
+  transition: var(--animation);
+}
+
+.join-container .social-icons__link:focus,
+.join-container .social-icons__link:hover,
+.join-container .social-icons__link:hover .icon,
+.join-container .social-icons__link:focus .icon {
+  background-color: var(--accent-text-color);
+  fill: #ffffff;
+  transition: var(--animation);
+}

@@ -1,0 +1,41 @@
+.email-container__item {
+  margin: 0;
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.email-container__form {
+  margin-top: 20px;
+  display: flex;
+}
+
+.email-footer {
+  outline: none;
+}
+
+.email-container__form input {
+  width: 358px;
+  padding-left: 16px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: rgba( 0, 0, 0, 0);
+}
+
+.email-container {
+  margin-left: 93px;
+}
+
+.icon-send {
+  fill: #FFFFFF;
+  height: 24px;
+  width: 24px;
+  margin-left: 10px;
+}
